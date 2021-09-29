@@ -127,5 +127,5 @@ jobs:
           title: ${{ startsWith(github.ref, 'refs/heads') && 'Latest' || null }}
           files: |
             wordninja-windows-32-lua54
-            wordninja-windows-64-lua54
+            wordninja-windows-64-lua54-cs
             wordninja-linux-lua54
